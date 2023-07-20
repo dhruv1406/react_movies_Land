@@ -6,7 +6,7 @@ import SearchIcon from "./search.svg";
 
 // be8bd71b
 const movieApi_URL = process.env.REACT_APP_API_URL;
-
+console.log(movieApi_URL);
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
